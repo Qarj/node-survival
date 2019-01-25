@@ -1,5 +1,7 @@
 # NPM Command line options
 
+https://docs.npmjs.com/cli-documentation/
+
 ## Install a package globally
 
 ```
