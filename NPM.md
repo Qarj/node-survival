@@ -11,7 +11,7 @@ npm --global install yarn
 ## Save a package in `package.json`as a dependency
 
 ```
-npm --save install underscore
+npm install underscore
 ```
 
 Normal dependencies are required for runtime.
@@ -23,4 +23,23 @@ npm install --save-dev jest-puppeteer puppeteer jest
 ```
 
 Dev dependencies are not required for runtime.
+
+## nodemon
+```
+npm --global install nodemon
+```
+Start program with nodemon instead of mode and changes will be automatically applied.
+
+## Publish app
+```
+npm login
+```
+
+```
+npm publish
+```
+
+```
+npm major|minor|patch
+```
 
