@@ -43,3 +43,30 @@ npm publish
 npm major|minor|patch
 ```
 
+## link
+
+Windows
+```
+type NUL > .npmignore
+```
+
+```
+npm cache verify
+```
+
+In sub package called `wonder-lib`
+```
+npm link
+```
+
+In master package `bloggy`
+```
+npm link ../wonder-lib
+```
+
+## view
+
+See repository connected to
+```
+npm view connect
+```
